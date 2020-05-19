@@ -1,0 +1,8 @@
+package br.com.devmedia.revjpa.dao;
+
+import java.io.Serializable;
+
+
+public abstract class GenericDAO <T extends Serializable>{
+
+}

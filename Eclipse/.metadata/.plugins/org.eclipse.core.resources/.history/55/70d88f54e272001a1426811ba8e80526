@@ -1,0 +1,26 @@
+package br.com.devmedia.curso.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.com.devmedia.curso.entity.Person;
+
+public interface PersonRepository extends JpaRepository<Person, Long>{
+
+	List<Person> findByAgeOrFirstName(Integer age, String firstName);   // busca por age OR firstName via parametros
+	Person findByFirstNameAndLstName(String firstName, String LstName); // busca por firstName AND lastName via parametros
+	List<Person> findByFirstNameLike(String firstName);                 // busca por firstName igual a parametro
+	List<Person> findByFirstNameNotLike(String firstName);              // busca por firstName diferente do parametro
+	
+	List<Person> findByAge(Integer age);                                         // busca por age igual ao parametro fornecido
+	List<Person> findByAgeNot(Integer age);                                      // busca por age diferente do parametro fornecido
+	List<Person> findByAgeBetween(int min, int max);                             // busca por age usando between
+	List<Person> findByLstNameAndAgeBetween(String lastName, int min, int max);  // busca por lastName And age between
+	List<Person> findByAgeLessThan(Integer age);                                 // busca por age menor que o parametro
+	List<Person> findByAgeGreaterThan(Integer age);                              // busca por age maior que o parametro
+	List<Person> findByAgeGreaterThanEqual(Integer age);                         // busca por age maior que e igual ao parametro
+	List<Person> findByAgeLessThanEqual(Integer age);	                         // busca por age menor que e igual ao parametro
+	List<Person> findByFirstNameGreaterThan(String fisrtName);                   // buca por firstName maior que a valor informado
+	
+}

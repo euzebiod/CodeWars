@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\euzeb\Google Drive\Learning\Desenvolvimento_Web\Java\ProjetosEclipse\BD"/>
+	</list>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="337"/>
+		<item key="DIALOG_Y_ORIGIN" value="260"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\euzeb\Google Drive\Src\OneDrive\Dropbox\CodeWars\Java\Eclipse_\WeightSort"/>
+			<item value="C:\Users\euzeb\Google Drive\Src\OneDrive\Dropbox\CodeWars\Java\Eclipse_\VasyaClerk"/>
+			<item value="C:\Users\euzeb\Google Drive\Src\OneDrive\Dropbox\CodeWars\Java\Eclipse_\TortoiseRacing"/>
+			<item value="C:\Users\euzeb\Google Drive\Src\OneDrive\Dropbox\CodeWars\Java\Eclipse_\PlayingWithDigits"/>
+			<item value="C:\Users\euzeb\Google Drive\Src\OneDrive\Dropbox\CodeWars\Java\Eclipse_\Persistence"/>
+			<item value="C:\Users\euzeb\Google Drive\Src\OneDrive\Dropbox\CodeWars\Java\Eclipse_\isPrime"/>
+			<item value="C:\Users\euzeb\Google Drive\Src\OneDrive\Dropbox\CodeWars\Java\Eclipse_\BraceChecker"/>
+			<item value="C:\Users\euzeb\Google Drive\Src\OneDrive\Dropbox\CodeWars\Java\Eclipse_\BitCounting"/>
+			<item value="C:\Users\euzeb\Google Drive\Src\OneDrive\Dropbox\Cursos\DevMedia\Eclipse\webservice"/>
+			<item value="C:\Users\euzeb\Google Drive\Src\OneDrive\Dropbox\Cursos\DevMedia\Eclipse\Seguranca_RESTFULL"/>
+			<item value="C:\Users\euzeb\Google Drive\Src\OneDrive\Dropbox\Cursos\DevMedia\Eclipse\imoveis"/>
+			<item value="C:\Users\euzeb\Google Drive\Src\OneDrive\Dropbox\Cursos\DevMedia\Eclipse\controleAcesso"/>
+			<item value="C:\Users\euzeb\Google Drive\Src\OneDrive\Dropbox\Cursos\DevMedia\curso-java-oo\Eclipse\curso-java-oo"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="1482"/>
+		<item key="DIALOG_Y_ORIGIN" value="244"/>
+		<item key="DIALOG_WIDTH" value="500"/>
+		<item key="DIALOG_HEIGHT" value="419"/>
+		<item key="TOGGLE_SELECTED" value="false"/>
+	</section>
+</section>

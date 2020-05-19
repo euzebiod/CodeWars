@@ -1,0 +1,66 @@
+package br.com.codewar;
+
+public class Solution {
+
+    public static int solveSuperMarketQueue(int[] customers, int n) {
+
+		System.out.println(n);
+		for(int j=0; j < customers.length; j++) {
+			System.out.print(customers[j]);
+			if(j < customers.length) System.out.print(",");
+		}
+    	
+    	if(customers.length == 0) {
+    		return 0;
+    	}
+    	
+    	int caixas[];
+    	if(n < customers.length) {
+    		caixas = new int[n];
+    	}
+    	else
+    	{
+        	caixas = new int[customers.length];   		
+    	}
+    	
+		for(int j=0; j < caixas.length; j++) {
+			caixas[j] =0; 
+		}
+    	
+
+    	for(int i=0; i < customers.length; i++) {
+    			caixas[menorTempo(caixas)] += customers[i]; 
+    	}
+        return caixas[maiorTempo(caixas)];
+      }
+    
+    public static int menorTempo(int[] caixas) {
+    	
+    	int menor=caixas[0];
+    	int ind=0;
+    	
+    	for(int i=0; i < caixas.length; i++) {
+    		if(caixas[i] < menor) {
+    			menor = caixas[i];
+    			ind = i;
+    		}
+    		
+    	}
+		return ind;
+    }
+    
+    public static int maiorTempo(int[] caixas) {
+    	
+    	int maior=caixas[0];
+    	int ind=0;
+    	
+    	for(int i=0; i < caixas.length; i++) {
+    		if(caixas[i] > maior) {
+    			maior = caixas[i];
+    			ind = i;
+    		}
+    		
+    	}
+		return ind;
+    }
+ }

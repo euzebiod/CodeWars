@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+C:\Users\euzeb\Google Drive\Src\OneDrive\Dropbox\CodeWars\Java\Eclipse\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes

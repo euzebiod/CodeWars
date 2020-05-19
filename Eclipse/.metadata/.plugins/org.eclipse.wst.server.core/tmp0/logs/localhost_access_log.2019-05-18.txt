@@ -1,0 +1,15 @@
+127.0.0.1 - - [18/May/2019:18:23:13 -0300] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [18/May/2019:18:23:23 -0300] "GET /rest-notas/rest/notas/get/5 HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [18/May/2019:18:25:08 -0300] "GET /rest-notas/rest/notas/get/5 HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [18/May/2019:18:25:19 -0300] "GET /rest-notas/rest/notas/get/5 HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [18/May/2019:18:25:21 -0300] "GET /rest-notas/rest/notas/get/5 HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [18/May/2019:18:25:22 -0300] "GET /rest-notas/rest/notas/get/5 HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [18/May/2019:18:26:54 -0300] "GET /rest-notas/rest/notas/get/5 HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [18/May/2019:18:27:21 -0300] "GET /rest-notas/rest/notas/get/80 HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [18/May/2019:18:27:32 -0300] "GET /rest-notas/rest/notas/get/80 HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [18/May/2019:18:27:34 -0300] "GET /rest-notas/rest/notas/get/80 HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [18/May/2019:18:27:40 -0300] "GET /rest-notas/rest/notas/get/at HTTP/1.1" 404 1078
+127.0.0.1 - - [18/May/2019:18:32:16 -0300] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [18/May/2019:18:32:58 -0300] "GET /rest-notas/rest/notas/get/5 HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [18/May/2019:18:34:40 -0300] "PUT /rest-notas/rest/notas/PUT/7 HTTP/1.1" 404 1078
+0:0:0:0:0:0:0:1 - - [18/May/2019:18:35:50 -0300] "PUT /rest-notas/rest/notas/edit/7 HTTP/1.1" 200 25
