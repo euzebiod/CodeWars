@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="br.com.codewars"/>
 			<item value="codewar.com.br"/>
 		</list>
 		<list key="name">
 			<item value="SolveSuperMarketQueue"/>
 		</list>
 		<list key="artifactId">
+			<item value="StripComments"/>
 			<item value="SolveSuperMarketQueue"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -60,6 +62,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\euzeb\Google Drive\Src\OneDrive\Dropbox\CodeWars\Java\Eclipse\BitCounting"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
